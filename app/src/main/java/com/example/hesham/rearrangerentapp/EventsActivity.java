@@ -1,18 +1,13 @@
 package com.example.hesham.rearrangerentapp;
 
-
+import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class MapsActivity extends HandlingMaps {
+public class EventsActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_maps);
-
-        onCreateHandle();
-
+        setContentView(R.layout.activity_events);
     }
-
-
 }
